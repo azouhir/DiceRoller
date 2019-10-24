@@ -20,12 +20,12 @@
         android:id="@+id/button"
         android:layout_width="130dp"
         android:layout_height="53dp"
-        android:layout_marginBottom="124dp"
+        android:layout_marginBottom="112dp"
         android:onClick="on_button_click"
-        android:text="Roll"
+        android:text="I am feeking lucky"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintHorizontal_bias="0.056"
         app:layout_constraintStart_toStartOf="parent" />
 
     <EditText
@@ -61,4 +61,36 @@
         app:layout_constraintTop_toBottomOf="@+id/textView"
         app:srcCompat="@android:drawable/btn_star_big_on"
         tools:visibility="invisible" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="133dp"
+        android:layout_height="51dp"
+        android:layout_marginBottom="112dp"
+        android:onClick="on_button_click2"
+        android:text="Let's play D-ICEBREAKERS"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.878"
+        app:layout_constraintStart_toEndOf="@+id/button" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="332dp"
+        android:layout_height="88dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="125dp"
+        android:layout_height="57dp"
+        android:onClick="sendMessage"
+        android:text="add a new D-icebreaker"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editText" />
 </androidx.constraintlayout.widget.ConstraintLayout>
